@@ -185,7 +185,7 @@ GLSL_TO_H(
     EOD "0"
     )
 
-ADD_LIBRARY(forge SHARED
+ADD_LIBRARY(forge
     ${api_headers}
     ${c_api_headers}
     ${c_api_sources}
